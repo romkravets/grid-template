@@ -179,6 +179,24 @@ input, textarea {
         &:hover {
             transform: scale(1.05) translateY(-6.5px);
         }
+        &_one {
+            background-image: url(../../assets/images/1.jpg);
+        }
+        &_two {
+            background-image: url(../../assets/images/2.jpg);
+        }
+        &_three {
+            background-image: url(../../assets/images/3.jpg);
+        }
+        &_fore {
+            background-image: url(../../assets/images/4.jpg);
+        }
+        &_five {
+            background-image: url(../../assets/images/5.jpg);
+        }
+        &_six {
+            background-image: url(../../assets/images/6.jpg);
+        }
     }
     &__item {
         background-color: #F7F7F7;
@@ -199,28 +217,30 @@ input, textarea {
                 color: $dark;
             }
         }
-        &__content {
-            padding: 25px;
-            text-align: center;
-            align-content: center;
-            &__title {
-                font-size: 18px;
-                color: #666;
-                line-height: 1.3;
-                margin: 0;
-                transition: color .25s ease;
-            }
-            &__text {
-                margin-top: 20px;
-                margin-bottom: 0;
-            }
-            &:hover {
-                background-color: $light;
-                &__title {
-                    color: $dark;
-                }
-            }
-            }
+
+    }
+}
+
+.section-blog__item_content {
+    padding: 25px;
+    text-align: center;
+    align-content: center;
+    &__title {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.3;
+        margin: 0;
+        transition: color .25s ease;
+    }
+    &__text {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    &:hover {
+        background-color: $light;
+        &__title {
+            color: $dark;
+        }
     }
 }
 
