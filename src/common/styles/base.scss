@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: 'Nunito', sans-serif;
+  height: 100%;
   font-size: $font-size-base;
   color: $base-font-color; 
 }
@@ -13,8 +13,14 @@ html {
 body {
   padding: 0;
   margin: 0;
-  min-height: 100vh;
-  background-color: rgb(83, 95, 130);
+  font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	font-family: raleway-grid, sans-serif;
+	overflow-x: hidden;
+	opacity: 1;
+	color: #333;
 }
 
 h1,
@@ -47,4 +53,14 @@ h4 {
 a {
   text-decoration: none;
   display: inline-block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }

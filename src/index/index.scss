@@ -1,24 +1,7 @@
-body {
-  background: url(../../assets/images/lesson_6/give_back_large_2x.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
+@import './styles/header.scss';
+@import './styles/section.scss';
+@import '../common/styles/base.scss';
+@import '../common/styles/mixins.scss'; 
+@import '../common/styles/variables.scss';
+@import '../index/styles/font.scss';
 
-.global-item {
-  padding-top: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &__link {
-    position: relative;
-    font-size: 2rem;
-    color: rgb(102, 187, 255);
-    text-shadow: 0.5rem;
-    text-transform: uppercase;
-    &:hover {
-      color: rgb(0, 0, 0);
-      transition: all .1s linear;
-    }
-  }
-}

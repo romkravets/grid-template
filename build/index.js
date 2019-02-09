@@ -9054,7 +9054,7 @@ __webpack_require__(329);
 /* 329 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\n@import './styles/main.sass';\n\n\nbody {\n  background-size: 100%;\n  background-repeat: no-repeat;\n  background-position: center top;\n}\n\n.global-item {\n  padding-top: 10%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  &__link {\n    position: relative;\n    font-size: 2rem;\n    color: rgb(102, 187, 255);\n    text-shadow: 0.5rem;\n    text-transform: uppercase;\n    &:hover {\n      color: rgb(0, 0, 0);\n      transition: all .1s linear;\n    }\n  }\n}\r\n^\r\n      File to import not found or unreadable: ./styles/main.sass.\r\n      in D:\\grid-landing-page\\src\\index\\index.scss (line 1, column 1)\n    at runLoaders (D:\\grid-landing-page\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at D:\\grid-landing-page\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at D:\\grid-landing-page\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (D:\\grid-landing-page\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (D:\\grid-landing-page\\node_modules\\sass-loader\\lib\\loader.js:55:13)\n    at Object.done [as callback] (D:\\grid-landing-page\\node_modules\\neo-async\\async.js:8077:18)\n    at options.error (D:\\grid-landing-page\\node_modules\\node-sass\\lib\\index.js:294:32)");
 
 /***/ })
 /******/ ]);
