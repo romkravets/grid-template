@@ -37,9 +37,10 @@
     &__title {
         font-size: 4rem;
 		font-family: intro-grid, sans-serif;
-		font-weight: normal;
+		font-weight: bold;
 		margin: 20px 0;
-		line-height: 1.5;
+        line-height: 1.5;
+        text-transform: uppercase;
     }
 }
 
